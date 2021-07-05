@@ -38,8 +38,8 @@ class TokenSerializer(serializers.Serializer):
 
     def validate(self, data):
         if not AskRegistration.objects.filter(
-            email=data['email'],
-            confirmation_code=data['confirmation_code']
+                email=data['email'],
+                confirmation_code=data['confirmation_code']
         ).exists():
             raise serializers.ValidationError('Неверный код подтверждения')
         return data
