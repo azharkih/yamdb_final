@@ -12,7 +12,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: .
+    image: azharkih/yamdb:latest
     restart: always
     volumes:
       - static_value:/code/static/

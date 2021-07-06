@@ -1,4 +1,4 @@
-![workflow](https://github.com/azharkih/yamdb_final/actions/workflows/main.yml/badge.svg)
+![workflow](https://github.com/azharkih/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # API yamdb
 
 ## Краткое описание проекта
