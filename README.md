@@ -8,7 +8,6 @@ API предназначено для обмена информацией об �
 ### Запуск приложения
 Для запуска приложения необходимо ввести следующие команды:
 ```
-docker-compose up
 docker-compose exec web python manage.py migrate --noinput
 docker-compose exec web python manage.py collectstatic --no-input
 ```
