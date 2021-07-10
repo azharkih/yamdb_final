@@ -23,3 +23,7 @@ docker-compose exec web python manage.py createsuperuser
 ```
 docker-compose exec web python manage.py loaddata fixtures.json
 ```
+
+### Рабочий проект
+
+С примером работы проекта можно ознакомится по ссылке: http://84.252.132.252/admin/
